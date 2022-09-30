@@ -1,0 +1,25 @@
+[gd_scene format=2]
+
+[node name="Spatial" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0587784, 7.07375 )
+
+[node name="RigidBody" type="RigidBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.9743 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.973239, 0.0950827, -0.209201, 0, 0.910381, 0.413772, 0.229795, -0.402699, 0.886018, -4.10881, 8.48285, 7.94335 )
+fov = 50.625
+
+[node name="Door" type="CSGBox" parent="."]
+transform = Transform( 0.195913, 0, 0, 0, 3.62763, 0, 0, 0, 1.66333, -0.0276527, 3.22921, -0.0923443 )
+
+[node name="Floor" type="CSGBox" parent="."]
+transform = Transform( 13.2068, 0, 0, 0, 0.229823, 0, 0, 0, 10.7211, 0.0191126, -0.812726, -0.011282 )
+
+[node name="CSGSphere" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.13124, 5.13379, 0 )
+radius = 1.26483
+
+[node name="CSGSphere2" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.56484, 5.13379, -0.00789261 )
+radius = 1.26483
