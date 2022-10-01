@@ -11,9 +11,9 @@ func _process(delta):
 	if Input.is_action_pressed("push_right"):
 		$Door.open()
 		
-	if $Door.is_closed:
-		print("closer wins")
-	if $Door.is_opened:
-		print("opener wins")
+	#if $Door.is_closed:
+	#	print("closer wins")
+	#f $Door.is_opened:
+	#	print("opener wins")
 	
 	pass
