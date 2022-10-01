@@ -1,15 +1,17 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Door.gd" type="Script" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
+[ext_resource path="res://Models/door.glb" type="PackedScene" id=3]
 [ext_resource path="res://Conflict.gd" type="Script" id=4]
+[ext_resource path="res://Models/DoorRotate.gd" type="Script" id=5]
 
 [node name="Main" type="Spatial"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0587784, 7.07375 )
+transform = Transform( 0.999999, 0.000800417, -0.000566339, -0.000800179, 1, 0.000415048, 0.000566675, -0.00041459, 1, 0, 0.0587784, 7.07375 )
 script = ExtResource( 2 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 0.973239, 0.0950827, -0.209201, 0, 0.910381, 0.413772, 0.229795, -0.402699, 0.886018, -4.10881, 8.48285, 7.94335 )
+transform = Transform( 0.973239, 0.0950827, -0.209201, 2.98314e-10, 0.910381, 0.413772, 0.229795, -0.402699, 0.886018, -3.19478, 10.0488, 12.6878 )
 fov = 50.625
 
 [node name="Floor" type="CSGBox" parent="."]
@@ -29,3 +31,7 @@ radius = 1.26483
 [node name="Door" type="CSGBox" parent="Conflict"]
 transform = Transform( 0.195913, 0, 0, 0, 3.62763, 0, 0, 0, 1.66333, -0.0276527, 3.28799, 6.98141 )
 script = ExtResource( 1 )
+
+[node name="BlenderDoor" parent="Conflict" instance=ExtResource( 3 )]
+transform = Transform( 3.4257, 0, 0, 0, 3.67047, 0, 0, 0, 1.66333, 0.715, 3.231, 15 )
+script = ExtResource( 5 )

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/human.glb-a3f9b36e09f6a761426e0489bbae7d05.scn"
+path="res://.import/door.glb-3dbf61c6a2a0fae74228b547c35f33a4.scn"
 
 [deps]
 
-source_file="res://Models/human.glb"
-dest_files=[ "res://.import/human.glb-a3f9b36e09f6a761426e0489bbae7d05.scn" ]
+source_file="res://Models/door.glb"
+dest_files=[ "res://.import/door.glb-3dbf61c6a2a0fae74228b547c35f33a4.scn" ]
 
 [params]
 
