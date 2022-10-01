@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/DoorAndWall.glb-c8487aa8d293ac92da19ac177b4e9919.scn"
+path="res://.import/DoorAndWall.glb-098fdddcfb69f693575c9c6452eccfcc.scn"
 
 [deps]
 
-source_file="res://Models/DoorAndWall.glb"
-dest_files=[ "res://.import/DoorAndWall.glb-c8487aa8d293ac92da19ac177b4e9919.scn" ]
+source_file="res://models/DoorAndWall.glb"
+dest_files=[ "res://.import/DoorAndWall.glb-098fdddcfb69f693575c9c6452eccfcc.scn" ]
 
 [params]
 

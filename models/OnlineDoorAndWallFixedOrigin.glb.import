@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/door.glb-5ece25c19067dd96b795f171540a0c81.scn"
+path="res://.import/OnlineDoorAndWallFixedOrigin.glb-239101d72dc1d95238582e5e3b8dd503.scn"
 
 [deps]
 
-source_file="res://models/door.glb"
-dest_files=[ "res://.import/door.glb-5ece25c19067dd96b795f171540a0c81.scn" ]
+source_file="res://models/OnlineDoorAndWallFixedOrigin.glb"
+dest_files=[ "res://.import/OnlineDoorAndWallFixedOrigin.glb-239101d72dc1d95238582e5e3b8dd503.scn" ]
 
 [params]
 

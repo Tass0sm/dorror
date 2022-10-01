@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=2]
-[ext_resource path="res://Models/door.glb" type="PackedScene" id=3]
+[ext_resource path="res://models/door.glb" type="PackedScene" id=3]
 [ext_resource path="res://Conflict.gd" type="Script" id=4]
-[ext_resource path="res://Models/DoorRotate.gd" type="Script" id=5]
+[ext_resource path="res://models/DoorRotate.gd" type="Script" id=5]
 
 [node name="Main" type="Spatial"]
 transform = Transform( 0.999999, 0.000800417, -0.000566339, -0.000800179, 1, 0.000415048, 0.000566675, -0.00041459, 1, 0, 0.0587784, 7.07375 )
