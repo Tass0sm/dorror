@@ -9,7 +9,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0587784, 7.07375 )
 script = ExtResource( 2 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 0.973239, 0.0950827, -0.209201, 0, 0.910381, 0.413772, 0.229795, -0.402699, 0.886018, -4.10881, 8.48285, 7.94335 )
+transform = Transform( 0.380134, 0.38271, -0.84204, 0, 0.910381, 0.413772, 0.924931, -0.157289, 0.346067, -25.4082, 12.9186, 11.5425 )
 fov = 50.625
 
 [node name="Conflict" parent="." instance=ExtResource( 1 )]

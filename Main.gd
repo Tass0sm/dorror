@@ -13,9 +13,9 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if $Conflict.is_finished:
+		print($Conflict.outcome)
 		game_over()
 		
-	print($Conflict/Door.open_level)
-	$UI.update_progress($Conflict/Door.open_level)
+	$UI.update_progress($Conflict.open_level)
 	
 	pass
