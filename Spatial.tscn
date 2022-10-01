@@ -1,34 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Door.gd" type="Script" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
 [ext_resource path="res://Conflict.gd" type="Script" id=4]
-
-[sub_resource type="GDScript" id=1]
-script/source = "extends CSGSphere
-
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = \"text\"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-#    if Input.is_action_pressed(\"move_back\"):
-#        # Notice how we are working with the vector's x and z axes.
-#        # In 3D, the XZ plane is the ground plane.
-#        direction.z += 1
-#    if Input.is_action_pressed(\"move_forward\"):
-#        direction.z -= 1
-
-	pass
-"
 
 [node name="Main" type="Spatial"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0587784, 7.07375 )
@@ -47,7 +21,6 @@ script = ExtResource( 4 )
 [node name="Player1" type="CSGSphere" parent="Conflict"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.56484, 5.19257, 7.06586 )
 radius = 1.26483
-script = SubResource( 1 )
 
 [node name="Player2" type="CSGSphere" parent="Conflict"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.13124, 5.19257, 7.07375 )
